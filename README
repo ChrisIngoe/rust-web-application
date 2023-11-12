@@ -1,0 +1,16 @@
+# rust-web-application
+
+### Run the application
+RUST_LOG=info cargo run
+
+### Find process ID running on port 8080
+
+sudo lsof -i:8080
+
+### Kill the process identified as running on port 8080
+
+kill $PID
+
+### Forecefully kill the process identified as running on port 8080
+
+kill -9 $PID
